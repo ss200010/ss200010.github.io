@@ -1,0 +1,35 @@
+table {
+	margin-bottom: 20px;
+}
+
+table,tr,th,td {
+	border:1px solid black;
+}
+
+.first-table {
+	width: 900px;
+}
+
+.second-table {
+	margin-left: 150px;
+	width: 550px;
+}
+
+.third-table {
+	margin-left: 150px;
+	width: 550px;
+}
+
+.third-table th {
+	text-align: left;
+}
+
+
+.second-table tr> td:first-child {
+	font-weight: bold;
+}
+
+.third-table, .third-table tr, .third-table th, .third-table td  {
+	border-collapse: collapse;
+	border:2px solid black;
+}

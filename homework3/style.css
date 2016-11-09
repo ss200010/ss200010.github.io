@@ -1,0 +1,45 @@
+﻿body {
+	margin:30px;
+}
+fieldset {
+	margin-top: 20px;
+}
+legend, fieldset p, label.bold {
+	font-weight: bold;
+}
+fieldset p {
+	margin:20px 0;
+}
+
+.first-fieldset input{
+	margin-bottom: 10px;
+}
+#age {
+	width: 40px;
+}
+
+input {
+	margin-right: 5px;
+
+}
+
+  input[type="radio"],  input[type="checkbox"] {
+ 	margin-bottom: 10px;
+}
+
+.third-fieldset input  {
+	margin-bottom: 10px;
+}
+
+#fieldForUs, input[type="email"]{
+	width: 280px;
+}
+p.italic {
+	font-style: italic;
+	font-weight: normal;
+	margin: 0;
+}
+
+button {
+	margin-top: 20px;
+}
